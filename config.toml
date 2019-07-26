@@ -1,4 +1,4 @@
-baseURL = "http://example.org/cv-docs/"
+baseURL = "https://dossaj.github.io/cv-site/"
 languageCode = "en-us"
 title = "Curriculum Vitae"
 theme = "hugo-orbit-theme"
