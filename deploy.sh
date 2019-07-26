@@ -14,7 +14,7 @@ git config --global push.default simple
 rm -rf deployment
 
 # clone publish pages repo into deployment folder
-git clone -b master https://github.com/dossaj/cv-site.git deployment
+git clone -b gh-pages https://github.com/dossaj/cv-site.git deployment
 
 # delete all but git and public folder
 rsync -av --delete --exclude ".git" public/ deployment
