@@ -1,5 +1,5 @@
 baseURL = "https://dossaj.github.io/cv-site/"
-languageCode = "en-us"
+languageCode = "en"
 title = "Curriculum Vitae"
 theme = "hugo-orbit-theme"
 
@@ -10,8 +10,9 @@ disable404 = true
 
 [params]
 author = "Jason Dos Santos"
-description = "Hugo Responsive Resume/CV Theme for Developers"
-styles = "styles-6.css"
+description = "Curriculum Vitae for Jason Dos Santos"
+styles = "styles-custom.css"
+title = "Curriculum Vitae"
 
 [params.profile]
 name = "Jason Dos Santos"
@@ -25,38 +26,20 @@ enable = true
 [[params.contact.list]]
 class = "email"
 icon = "fa-envelope"
-url = "mailto: yourname@email.com"
-title = "john.doe@website.com"
-
-[[params.contact.list]]
-class = "phone"
-icon = "fa-phone"
-url = "tel:+1234567890"
-title = "+1234567890"
-
-[[params.contact.list]]
-class = "website"
-icon = "fa-globe"
-url = "//portfoliosite.com"
-title = "portfoliosite.com"
+url = "mailto: jason.dos.santos@outlook.com"
+title = "jason.dos.santos@outlook.com"
 
 [[params.contact.list]]
 class = "linkedin"
 icon = "fa-linkedin"
-url = "//linkedin.com/in/johndoe"
-title = "linkedin.com/in/johndoe"
+url = "//linkedin.com/in/jason-dos-santos-6b219019"
+title = "linkedin/jason-dos-santos"
 
 [[params.contact.list]]
 class = "github"
 icon = "fa-github"
-url = "//github.com/username"
-title = "github.com/username"
-
-[[params.contact.list]]
-class = "twitter"
-icon = "fa-twitter"
-url = "//twitter.com/username"
-title = "@twittername"
+url = "//github.com/dossaj"
+title = "github.com/dossaj"
 
 # Education section
 [params.education]
@@ -64,14 +47,9 @@ enable = true
 title = "Education"
 
 [[params.education.list]]
-degree = "MSc in Computer Science"
-college = "University of London"
-dates = "2006 - 2010"
-
-[[params.education.list]]
-degree = "BSc in Applied Mathematics"
-college = "Bristol University"
-dates = "2007 - 2011"
+degree = "BSc in Computer Science"
+college = "University of Johannesburg"
+dates = "2004 - 2006"
 
 # Languages section
 [params.language]
@@ -82,27 +60,28 @@ title = "Languages"
 language = "English"
 level = "Native"
 
-[[params.language.list]]
-language = "French"
-level = "Professional"
-
-[[params.language.list]]
-language = "Russian"
-level = "Professional"
-
 # Interests section
 [params.interests]
 enable = true
 title = "Interests"
 
 [[params.interests.list]]
-interest = "Climbing"
+interest = "3D Printing"
 
 [[params.interests.list]]
-interest = "Snowboarding"
+interest = "Motor Racing"
 
 [[params.interests.list]]
-interest = "Cooking"
+interest = "Gaming"
+
+[[params.interests.list]]
+interest = "Biking"
+
+[[params.interests.list]]
+interest = "Music"
+
+[[params.interests.list]]
+interest = "Sports"
 
 # Main body sections
 
@@ -113,7 +92,16 @@ interest = "Cooking"
 enable = true
 icon = "fa-user"
 title = "Career Profile"
-summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+summary = "Software professional with a focus in software engineering. Experienced in software and system architecture, cloud systems, continuous integration/delivery and working with agile methodologies. Outcome ownwer"
+
+#Take pride in work
+#striving for excellence
+#work hard and play hard
+#lead by example 
+#analytical 
+
+
+#Calculated risk-taker, relentlessly goal-driven, paying ruthless attention to detail and striving for excellence in all aspects of my professional work. Huge believer in leading by example, a philosophy I have utilised to effectively manage/influence high performing teams. Motivated team member who is able to work and communicate effectively with people of varying skill/communication levels."
 
 # Experiences section
 [params.experiences]
@@ -122,54 +110,60 @@ icon = "fa-briefcase"
 title = "Experiences"
 
 [[params.jobs.list]]
-position = "Lead Developer"
-dates = "2015 - Present"
-company = "Startup Hubs, San Francisco"
-details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+position = "Principal Developer / System Architect"
+dates = "2018 - Present"
+company = "Fisher & Paykel Healthcare, Auckland"
+details = ""
 
 [[params.jobs.list]]
-position = "Senior Software Engineer"
-dates = "2014 - 2015"
-company = "Google, London"
-details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+position = "Senior Software Developer / Team Leader"
+dates = "2012 - 2018"
+company = "Fisher & Paykel Healthcare, Auckland"
+details = ""
 
 [[params.jobs.list]]
-position = "UI Developer"
-dates = "2012 - 2014"
-company = "Amazon, London"
-details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+position = "Intermediate Software Developer"
+dates = "2010 - 2012"
+company = "Triquestra International, Auckland"
+details = "/content/experiences/triquestra.md"
+
+[[params.jobs.list]]
+position = "Software Developer"
+dates = "2008 - 2010"
+company = "Cortell New Zealand, Auckland"
+details = "/content/experiences/cortell.md"
 
 # Projects section
 [params.projects]
 enable = true
 icon = "fa-archive"
 title = "Projects"
-intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+intro = "Overview of the personal projects hosted on [GitHub](//github.com/dossaj).<br/>N.B. Not all personal projects have been push to GitHub"
 
 [[params.projects.list]]
-title = "Hugrid"
-url = "https://github.com/aerohub/hugrid"
-tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+title = "Marlin"
+url = "https://github.com/dossaj/Marlin"
+tagline = "Fork of the Marlin firmware. This fork provides customised versions of the printer firmware, with configurations for RepRap printers built from the ground up. This also includes some changes for configurable homing currents, for TMC2130 drivers."
 
 [[params.projects.list]]
-title = "Simple FAQ Theme for Hugo"
-url = "https://github.com/aerohub/hugo-faq-theme"
-tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+title = "DrawIO Export Cli"
+url = "https://github.com/dossaj/drawio-export-cli"
+tagline = "NPM package explosing export functionality for DrawIO export via a command line interface. This package exports the drawing as an SVG, allowing the export to be scripted as part of a NPM build. It is used by a documentation framework which provides DrawIO integration."
 
 [[params.projects.list]]
-title = "Hugo Identity"
-url = "https://github.com/aerohub/hugo-identity-theme"
-tagline = "Little profile/card-style template for Hugo."
+title = "OpenSCAD Parts"
+url = "https://github.com/dossaj/parts-scad"
+tagline = "Repository containing the source for OpenSCAD parts created for RepRap printers. The source is published along with the STL for direct download. STL's can also be viewed on GitHub directly."
 
 [[params.projects.list]]
-title = "Orbit"
-url = "https://github.com/aerohub/hugo-orbit-theme"
-tagline = "Hugo Resume/CV Theme for Developers."
+title = "CV Documentation"
+url = "https://github.com/dossaj/cv-docs"
+tagline = "Repository for the source of this CV site. Site is built using the static site generator, Hugo. Continuos integration has been setup using Travis CI."
 
 [[params.projects.list]]
-title = "Me"
-url = "https://github.com/aerohub/hugo-me-theme"
-tagline = "A simple responsive Hugo theme for personal site."
+title = "CV Site"
+url = "https://github.com/dossaj/cv-site"
+tagline = "Repository to host the published files for the CV project. This repository is setup using GitHub pages. This repository exists to keep the sepeartion of source code and published content."
 
 # Skills section
 [params.skills]
@@ -178,28 +172,56 @@ icon = "fa-rocket"
 title = "Skills & Proficiency"
 
 [[params.skills.list]]
-skill = "Python & Django"
-level = "98%"
-        
-[[params.skills.list]]
-skill = "Javascript & jQuery"
-level = "98%"
+skill = "C#"
+level = "90%"
 
 [[params.skills.list]]
-skill = "Angular"
-level = "95%"
+skill = "C++"
+level = "70%"
+
+[[params.skills.list]]
+skill = "ASP.NET / ASP.NET Core"
+level = "90%"
+
+[[params.skills.list]]
+skill = "Sql Server"
+level = "85%"
+
+[[params.skills.list]]
+skill = "JavaScript & jQuery"
+level = "85%"
 
 [[params.skills.list]]
 skill = "HTML5 & CSS"
-level = "95%"
+level = "85%"
 
 [[params.skills.list]]
-skill = "Ruby on Rails"
+skill = "Networking & Infrastructure"
+level = "85%"
+
+[[params.skills.list]]
+skill = "Hugo"
+level = "80%"
+
+[[params.skills.list]]
+skill = "Redis"
 level = "75%"
 
 [[params.skills.list]]
-skill = "Sketch & Photoshop"
+skill = "RabbitMQ"
+level = "75%"
+
+[[params.skills.list]]
+skill = "Docker"
+level = "70%"
+
+[[params.skills.list]]
+skill = "Angular"
 level = "60%"
+
+[[params.skills.list]]
+skill = "Kubenetes"
+level = "40%"
 
 # Footer section
 
