@@ -21,7 +21,10 @@
             "command": "Explore",
             "type": "process",
             "windows": {
-                "command": "explorer.exe"
+                "command": "explorer"
+            },
+            "osx": {
+                "command": "open"
             },
             "args": [
                 "http://localhost:1313/cv-site"
