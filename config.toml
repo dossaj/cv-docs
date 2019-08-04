@@ -92,7 +92,7 @@ interest = "Sports"
 enable = true
 icon = "fa-user"
 title = "Career Profile"
-summary = "Software professional with a focus in software engineering. Experienced in software and system architecture, cloud systems, continuous integration/delivery and working with agile methodologies. Outcome ownwer"
+summary = "Software professional with a focus in software engineering. Experienced in software and system architecture, cloud systems, continuous integration/delivery and working with agile methodologies. Outcome owner"
 
 #Take pride in work
 #striving for excellence
@@ -113,13 +113,7 @@ title = "Experiences"
 position = "Principal Developer / System Architect"
 dates = "2018 - Present"
 company = "Fisher & Paykel Healthcare, Auckland"
-details = ""
-
-[[params.jobs.list]]
-position = "Senior Software Developer / Team Leader"
-dates = "2012 - 2018"
-company = "Fisher & Paykel Healthcare, Auckland"
-details = ""
+details = "/content/experiences/fnp.md"
 
 [[params.jobs.list]]
 position = "Intermediate Software Developer"
@@ -148,7 +142,7 @@ tagline = "Fork of the Marlin firmware. This fork provides customised versions o
 [[params.projects.list]]
 title = "DrawIO Export Cli"
 url = "https://github.com/dossaj/drawio-export-cli"
-tagline = "NPM package explosing export functionality for DrawIO export via a command line interface. This package exports the drawing as an SVG, allowing the export to be scripted as part of a NPM build. It is used by a documentation framework which provides DrawIO integration."
+tagline = "NPM package exposing export functionality for DrawIO export via a command line interface. This package exports the drawing as an SVG, allowing the export to be scripted as part of a NPM build. It is used by a documentation framework which provides DrawIO integration."
 
 [[params.projects.list]]
 title = "OpenSCAD Parts"
@@ -158,12 +152,12 @@ tagline = "Repository containing the source for OpenSCAD parts created for RepRa
 [[params.projects.list]]
 title = "CV Documentation"
 url = "https://github.com/dossaj/cv-docs"
-tagline = "Repository for the source of this CV site. Site is built using the static site generator, Hugo. Continuos integration has been setup using Travis CI."
+tagline = "Repository for the source of this CV site. Site is built using the static site generator, Hugo. Continuous integration has been setup using Travis CI."
 
 [[params.projects.list]]
 title = "CV Site"
 url = "https://github.com/dossaj/cv-site"
-tagline = "Repository to host the published files for the CV project. This repository is setup using GitHub pages. This repository exists to keep the sepeartion of source code and published content."
+tagline = "Repository to host the published files for the CV project. This repository is setup using GitHub pages. This repository exists to keep the separation of source code and published content."
 
 # Skills section
 [params.skills]
@@ -202,6 +196,10 @@ level = "85%"
 [[params.skills.list]]
 skill = "Hugo"
 level = "80%"
+
+[[params.skills.list]]
+skill = "WPF/WCF"
+level = "75%"
 
 [[params.skills.list]]
 skill = "Redis"

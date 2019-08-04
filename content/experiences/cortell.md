@@ -1,5 +1,4 @@
-
-# Overview
+<!-- markdownlint-disable MD041 -->
 
 Web based accounting / CRM system with a three tier architecture, written in C# using ASP .NET WebForms and SQL Server.
 
@@ -13,3 +12,5 @@ Web based accounting / CRM system with a three tier architecture, written in C# 
 - Lead a small team of two developers
 - Customer support and training
 - Customer account management
+
+<!-- markdownlint-enable MD041 -->

@@ -1,5 +1,4 @@
-
-# Overview
+<!-- markdownlint-disable MD041 -->
 
 Point of sale software with custom built components based on customer requirements.
 Delphi based application with COM interop modules written in C#.
@@ -15,3 +14,5 @@ Delphi based application with COM interop modules written in C#.
 - Report analysis and generation
 - Payment integrations
 - Custom integrations/modules
+
+<!-- markdownlint-enable MD041 -->
