@@ -132,7 +132,7 @@ details = "/content/experiences/cortell.md"
 enable = true
 icon = "fa-archive"
 title = "Projects"
-intro = "Overview of the personal projects hosted on [GitHub](//github.com/dossaj).<br/>N.B. Not all personal projects have been push to GitHub"
+intro = "Overview of the personal projects hosted on [GitHub](//github.com/dossaj).<br/>N.B. Not all personal projects have been pushed to GitHub"
 
 [[params.projects.list]]
 title = "Marlin"
