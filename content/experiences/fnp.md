@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD041 -->
 
-Cloud based SaaS solution, which provides a suite of services for patient and device data management. Responsible for collecting information from thousands of devices, including providing a wide range of services to consuming parties. These services include patient management, patient compliance monitoring and clinical reporting. A large distributed system built on a service oriented architecture (SOA), which is composed of many components and custom libraries. It is built mostly on the Microsoft stack, with other components of the system utilising a wide range of technologies.
+Cloud-based SaaS solution, which provides a suite of services for patient and device data management. Responsible for collecting information from thousands of devices, including providing a wide range of services to consuming parties. These services include patient management, patient compliance monitoring and clinical reporting. A large distributed system built on a service oriented architecture (SOA), which is composed of many components and custom libraries. It is built mostly on the Microsoft stack, with other components of the system utilising a wide range of technologies.
 
 - Leading the architecture of the system and setting future strategy.
 - Leading the application architecture and championing best practices.
@@ -20,7 +20,7 @@ Cloud based SaaS solution, which provides a suite of services for patient and de
 - Led a high performing platform team using agile methodologies.
 - Responsible for managing project outcomes and deadlines.
 - Involved in the recruitment of new hires.
-- Led the development of a localisation module for web based applications, including bundling and JavaScript code generation.
+- Led the development of a localisation module for web-based applications, including bundling and JavaScript code generation.
 - Led the development of a public API and integration components for external providers, including HL7 support.
 - Developed a NPAPI/ActiveX plugin for browsers, written in C++, and built using FireBreath and also uses CMake and Boost
 - Developed a customisable dashboard for patient rules, including custom widgets and behaviours.
@@ -28,7 +28,7 @@ Cloud based SaaS solution, which provides a suite of services for patient and de
 - Developed an IoT gateway for a large number of devices, with integration for a proprietary communications protocol.
 - Developed a CSS framework for common styling across the system, built on top of Bootstrap 3.
 - Developed a reliable SIM card management component, including integration with Vodafone and Kore.
-- Co-developed a web based SPA patient management application written, using ASP.NET MVC and Web API frameworks including Kendo UI
+- Co-developed a web-based SPA patient management application written, using ASP.NET MVC and Web API frameworks including Kendo UI
 - Co-developed a client application for patient management using WPF and WCF.
 
 <!-- markdownlint-disable MD041 -->

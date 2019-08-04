@@ -218,7 +218,7 @@ skill = "Angular"
 level = "50%"
 
 [[params.skills.list]]
-skill = "Kubenetes"
+skill = "Kubernetes"
 level = "30%"
 
 # Footer section
