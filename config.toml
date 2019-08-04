@@ -92,7 +92,7 @@ interest = "Sports"
 enable = true
 icon = "fa-user"
 title = "Career Profile"
-summary = "Software professional with a focus in software engineering. Experienced in software and system architecture, cloud systems, continuous integration/delivery and working with agile methodologies. Outcome owner"
+summary = "Software professional with a focus in software engineering. Experienced in software and system architecture, cloud systems, continuous integration/delivery and working with agile methodologies."
 
 #Take pride in work
 #striving for excellence
@@ -167,7 +167,7 @@ title = "Skills & Proficiency"
 
 [[params.skills.list]]
 skill = "C#"
-level = "90%"
+level = "85%"
 
 [[params.skills.list]]
 skill = "C++"
@@ -175,27 +175,27 @@ level = "70%"
 
 [[params.skills.list]]
 skill = "ASP.NET / ASP.NET Core"
-level = "90%"
+level = "80%"
 
 [[params.skills.list]]
 skill = "Sql Server"
-level = "85%"
+level = "80%"
 
 [[params.skills.list]]
 skill = "JavaScript & jQuery"
-level = "85%"
+level = "80%"
 
 [[params.skills.list]]
 skill = "HTML5 & CSS"
-level = "85%"
+level = "80%"
 
 [[params.skills.list]]
 skill = "Networking & Infrastructure"
-level = "85%"
+level = "80%"
 
 [[params.skills.list]]
 skill = "Hugo"
-level = "80%"
+level = "75%"
 
 [[params.skills.list]]
 skill = "WPF/WCF"
@@ -211,15 +211,15 @@ level = "75%"
 
 [[params.skills.list]]
 skill = "Docker"
-level = "70%"
-
-[[params.skills.list]]
-skill = "Angular"
 level = "60%"
 
 [[params.skills.list]]
+skill = "Angular"
+level = "50%"
+
+[[params.skills.list]]
 skill = "Kubenetes"
-level = "40%"
+level = "30%"
 
 # Footer section
 

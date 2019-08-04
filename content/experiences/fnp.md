@@ -18,7 +18,7 @@ Cloud based SaaS solution, which provides a suite of services for patient and de
 - Led a performing agile platform team using agile methodologies.
 - Projects management with responsibility for project outcomes and deadlines.
 - Supported the recruitment process for the acquisition of new developers.
-- Led the development a localisation module for web based applications, including bundling and JavaScript code generation.
+- Led the development of a localisation module for web based applications, including bundling and JavaScript code generation.
 - Led the development of a public API and integration components for external providers, including HL7 support.
 - Developed a NPAPI/ActiveX plugin for browsers. This component is written in C++, and built using FireBreath and also uses CMake and Boost
 - Developed a customisable dashboard for patient rules, including custom widgets and behaviours.
