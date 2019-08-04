@@ -12,6 +12,7 @@ Cloud based SaaS solution, which provides a suite of services for patient and de
 - Developed a documentation framework built on top of Hugo and Hugo Learn Theme.
 - Developed a charting library for showing clinical data.
 - Developed a reporting engine for generation of clinical reports.
+- Overseeing the upgrade from ASP.NET to ASP.NET Core.
 - Providing on-call technical support for production environments.
 
 # Senior Developer / Team Lead
@@ -27,7 +28,7 @@ Cloud based SaaS solution, which provides a suite of services for patient and de
 - Developed an IoT gateway for a large number of devices, with integration for a proprietary communications protocol.
 - Developed a CSS framework for common styling across the system, built on top of Bootstrap 3.
 - Developed a reliable SIM card management component, including integration with Vodafone and Kore.
-- Co-developed a web based SPA patient management application written, using ASP.NET MVC and WebApi frameworks including Kendo UI
+- Co-developed a web based SPA patient management application written, using ASP.NET MVC and Web API frameworks including Kendo UI
 - Co-developed a client application for patient management using WPF and WCF.
 
 <!-- markdownlint-disable MD041 -->

@@ -178,7 +178,7 @@ skill = "ASP.NET / ASP.NET Core"
 level = "80%"
 
 [[params.skills.list]]
-skill = "Sql Server"
+skill = "SQL Server"
 level = "80%"
 
 [[params.skills.list]]
