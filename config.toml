@@ -94,15 +94,6 @@ icon = "fa-user"
 title = "Career Profile"
 summary = "Software professional with a focus in software engineering. Experienced in software and system architecture, cloud systems, continuous integration/delivery and working with agile methodologies."
 
-#Take pride in work
-#striving for excellence
-#work hard and play hard
-#lead by example 
-#analytical 
-
-
-#Calculated risk-taker, relentlessly goal-driven, paying ruthless attention to detail and striving for excellence in all aspects of my professional work. Huge believer in leading by example, a philosophy I have utilised to effectively manage/influence high performing teams. Motivated team member who is able to work and communicate effectively with people of varying skill/communication levels."
-
 # Experiences section
 [params.experiences]
 enable = true
@@ -110,10 +101,16 @@ icon = "fa-briefcase"
 title = "Experiences"
 
 [[params.jobs.list]]
-position = "Principal Developer / System Architect"
-dates = "2018 - Present"
+position = "Technical Designer (Contract)"
+dates = "2020 - 2021"
+company = "Southern Cross Medical Care Society, Auckland"
+details = "/content/experiences/southern-cross.md"
+
+[[params.jobs.list]]
+position = "Senior / Principal Developer / System Architect"
+dates = "2012 - 2020"
 company = "Fisher & Paykel Healthcare, Auckland"
-details = "/content/experiences/fnp.md"
+details = "/content/experiences/fisher-and-paykel.md"
 
 [[params.jobs.list]]
 position = "Intermediate Software Developer"
