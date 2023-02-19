@@ -10,7 +10,7 @@ jobs:
     steps:
       - run:
           name: deploy
-          command: bash deploy.sh
+          command: bash ./deploy.sh
 
 workflows:
   build-workflow:
