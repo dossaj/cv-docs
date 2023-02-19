@@ -5,6 +5,7 @@ orbs:
 
 jobs:
   deploy:
+    machine: true
     steps:
       - run:
           name: deploy
