@@ -10,8 +10,8 @@ jobs:
         user: root
     steps:
       - run:
-        name: Make source directory
-        command: mkdir src
+          name: Make source directory
+          command: mkdir src
       - checkout:
           path: src
       - attach_workspace:
