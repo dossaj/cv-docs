@@ -6,7 +6,7 @@ orbs:
 jobs:
   deploy:
     docker:
-      - image: cimg/base:stable
+      - image: cimg/deploy
     steps:
       - checkout
       - run:
