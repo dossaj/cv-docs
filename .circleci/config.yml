@@ -5,6 +5,7 @@ orbs:
 
 jobs:
   deploy:
+    working_directory: /src
     docker:
       - image: cimg/deploy:2023.02
         user: root
