@@ -32,5 +32,5 @@ git commit -m "rebuilding site on `date`, commit ${CIRCLE_SHA1} and job ${CIRCLE
 git fetch
 
 # remove deployment folder
-#cd ..
-#rm -rf deployment
+cd ..
+rm -rf deployment

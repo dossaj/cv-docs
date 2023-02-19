@@ -17,9 +17,7 @@ jobs:
       - run: ls -lah src
       - run:
           name: deploy
-          command: cd src && bash deploy.sh
-      - run: ls -lah src
-      - run: ls -lah src/deployment
+          command: bash deploy.sh
 
 workflows:
   build-workflow:
