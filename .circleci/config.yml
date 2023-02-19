@@ -10,12 +10,11 @@ jobs:
     steps:
       - attach_workspace:
           at: cv-site
-      - checkout
       - run: ls -lah cv-site
-      - run: ls -lah .
-      - run:
-          name: deploy
-          command: bash deploy.sh
+      # - run: ls -lah .
+      # - run:
+      #     name: deploy
+      #     command: bash deploy.sh
 
 workflows:
   build-workflow:
