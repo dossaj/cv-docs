@@ -16,8 +16,8 @@ jobs:
           at: /src/public
       - run: ls -lah /src
       - run:
-        name: deploy
-        command: bash /src/deploy.sh
+          name: deploy
+          command: bash /src/deploy.sh
 
 workflows:
   build-workflow:
