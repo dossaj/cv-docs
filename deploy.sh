@@ -17,7 +17,7 @@ rm -rf deployment
 git clone -b gh-pages https://github.com/dossaj/cv-site.git deployment
 
 # delete all but git and public folder
-rsync -av --delete --exclude ".git" /src/public/ deployment
+rsync -av --delete --exclude ".git" public/ deployment
 
 # move into repo directory
 cd deployment
@@ -29,7 +29,7 @@ git add -A
 git commit -m "rebuilding site on `date`, commit ${CIRCLE_SHA1} and job ${CIRCLE_BUILD_NUM}" || true
 
 # push changes to publish repo
-git push
+git fetch
 
 # remove deployment folder
 cd ..
