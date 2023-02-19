@@ -9,7 +9,9 @@ jobs:
       - image: cimg/deploy:2023.02
         user: root
     steps:
-      - run: mkdir src
+      - run:
+        name: Make source directory
+        command: mkdir src
       - checkout:
           path: src
       - attach_workspace:
