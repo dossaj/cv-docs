@@ -9,14 +9,14 @@ jobs:
       - image: cimg/deploy:2023.02
         user: root
     steps:
+      - run: mkdir src
       - checkout:
           path: /src
       - attach_workspace:
-          at: cv-site
-      - run: ls -lah .
-      # - run:
-      #   name: deploy
-      #   command: bash deploy.sh
+          at: public
+      - run:
+        name: deploy
+        command: bash deploy.sh
 
 workflows:
   build-workflow:
