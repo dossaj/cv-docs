@@ -9,7 +9,7 @@ jobs:
     steps:
       - run:
           name: deploy
-          command: ls -la
+          command: ls
 
 workflows:
   build-workflow:
