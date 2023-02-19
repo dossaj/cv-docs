@@ -22,4 +22,4 @@ workflows:
           #   branches:
           #     only: master
           requires:
-            - build
+            - hugo/build
