@@ -15,7 +15,7 @@ jobs:
       - checkout:
           path: src
       - attach_workspace:
-          at: src/public
+          at: public
       - run:
           name: deploy
           command: cd src && bash deploy.sh
