@@ -4,7 +4,7 @@
 set -e
 
 # configure git
-echo $GITHUB_AUTH_SECRET > ~/.git-credentials && chmod 0600 ~/.git-credentials
+echo $GITHUB_PERSONAL_TOKEN > ~/.git-credentials && chmod 0600 ~/.git-credentials
 git config --global credential.helper store
 git config --global user.email "awesome-o-bot@users.noreply.github.com"
 git config --global user.name "awesome-o-bot"
@@ -17,7 +17,7 @@ rm -rf deployment
 git clone -b gh-pages https://github.com/dossaj/cv-site.git deployment
 
 # delete all but git and public folder
-rsync -av --delete --exclude ".git" public/ deployment
+rsync -av --no-R --delete --exclude ".git" public/ deployment
 
 # move into repo directory
 cd deployment
@@ -26,7 +26,7 @@ cd deployment
 git add -A
 
 # make sure commit with no changes does not fail the script
-git commit -m "rebuilding site on `date`, commit ${TRAVIS_COMMIT} and job ${TRAVIS_JOB_NUMBER}" || true
+git commit -m "rebuilding site on `date`, commit ${CIRCLE_SHA1} and job ${CIRCLE_BUILD_NUM}" || true
 
 # push changes to publish repo
 git push
