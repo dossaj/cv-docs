@@ -15,9 +15,9 @@ jobs:
       - attach_workspace:
           at: /src/public
       - run: ls -lah /src
-      # - run:
-      #   name: deploy
-      #   command: bash deploy.sh
+      - run:
+        name: deploy
+        command: bash /src/deploy.sh
 
 workflows:
   build-workflow:
