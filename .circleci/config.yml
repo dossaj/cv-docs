@@ -8,8 +8,9 @@ jobs:
     docker:
       - image: cimg/deploy:2023.02
     steps:
+      - run: mkdir src
       - checkout:
-          path: /test
+          path: /src
       - attach_workspace:
           at: cv-site
       - run: ls -lah .
