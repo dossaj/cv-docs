@@ -18,6 +18,8 @@ jobs:
       - run:
           name: deploy
           command: cd src && bash deploy.sh
+      - run: ls -lah src
+      - run: ls -lah src/deployment
 
 workflows:
   build-workflow:
