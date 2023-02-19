@@ -9,7 +9,7 @@ jobs:
       - image: cimg/deploy:2023.02
     steps:
       - attach_workspace:
-          at: .
+          at: cv-site
       - run: ls -lah .
       # - run:
       #   name: deploy
