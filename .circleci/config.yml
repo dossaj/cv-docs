@@ -5,12 +5,13 @@ orbs:
 
 jobs:
   deploy:
-    machine: true
+    docker:
+      - image: cimg/base:stable
     steps:
       - run:
           name: deploy
           command: |
-          ./deploy.sh
+            .circleci/deploy.sh
 
 workflows:
   build-workflow:
