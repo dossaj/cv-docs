@@ -13,7 +13,7 @@ jobs:
       - checkout:
           path: /src
       - attach_workspace:
-          at: public
+          at: /src/public
       - run: ls -lah .
       # - run:
       #   name: deploy
