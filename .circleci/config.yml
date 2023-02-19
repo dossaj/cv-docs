@@ -1,3 +1,5 @@
+orbs:
+  hugo: circleci/hugo@0.2
 version: 2.1
 jobs:
   deploy:
@@ -8,8 +10,6 @@ jobs:
           name: deploy
           command: |
             .circleci/deploy.sh
-orbs:
-  hugo: circleci/hugo@0.2
 workflows:
   build-workflow:
     jobs:
