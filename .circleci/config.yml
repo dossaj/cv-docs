@@ -16,6 +16,7 @@ jobs:
           at: src/public
       - run: ls -lah src
       - run: cd src
+      - run: ls -lah
       - run:
           name: deploy
           command: bash deploy.sh
