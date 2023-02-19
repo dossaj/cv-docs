@@ -17,7 +17,7 @@ rm -rf deployment
 git clone -b gh-pages https://github.com/dossaj/cv-site.git deployment
 
 # delete all but git and public folder
-rsync -av --relative --delete --exclude ".git" public deployment
+rsync -av --no-R --delete --exclude ".git" public deployment
 
 # move into repo directory
 cd deployment
