@@ -9,7 +9,8 @@ jobs:
     steps:
       - run:
           name: deploy
-          command: /.circleci/deploy.sh
+          command: |
+            ./.circleci/deploy.sh
 
 workflows:
   build-workflow:
