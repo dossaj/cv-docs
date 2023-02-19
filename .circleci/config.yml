@@ -5,18 +5,17 @@ orbs:
 
 jobs:
   deploy:
-    working_directory: /src
     docker:
       - image: cimg/deploy:2023.02
         user: root
     steps:
       - run: mkdir src
       - checkout:
-          path: /src
+          path: src
       - attach_workspace:
-          at: /src/public
-      - run: ls -lah /src
-      - run: cd /src
+          at: src/public
+      - run: ls -lah src
+      - run: cd src
       - run:
           name: deploy
           command: bash deploy.sh
