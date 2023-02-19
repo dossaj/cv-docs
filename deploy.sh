@@ -29,7 +29,7 @@ git add -A
 git commit -m "rebuilding site on `date`, commit ${CIRCLE_SHA1} and job ${CIRCLE_BUILD_NUM}" || true
 
 # push changes to publish repo
-#git push
+git push
 
 # remove deployment folder
 cd ..
