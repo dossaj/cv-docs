@@ -102,6 +102,12 @@ title = "Experiences"
 
 [[params.jobs.list]]
 position = "Senior Developer (Contract)"
+dates = "2023 - 2023"
+company = "Mercury, Auckland"
+details = "/content/experiences/mercury.md"
+
+[[params.jobs.list]]
+position = "Senior Developer (Contract)"
 dates = "2021 - 2023"
 company = "Xero, Auckland"
 details = "/content/experiences/xero.md"
