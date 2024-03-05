@@ -16,7 +16,7 @@ title = "Curriculum Vitae"
 
 [params.profile]
 name = "Jason Dos Santos"
-tagline = "Full Stack Developer"
+tagline = "Software Specialist"
 avatar = "avatar-small.png"
 
 # Contact section
@@ -102,7 +102,13 @@ title = "Experiences"
 
 [[params.jobs.list]]
 position = "Senior Developer (Contract)"
-dates = "2023 - 2023"
+dates = "2024 - 2024 (3 months)"
+company = "Xero, Auckland"
+details = "/content/experiences/xero-1.md"
+
+[[params.jobs.list]]
+position = "Senior Developer (Contract)"
+dates = "2023 - 2023 (9 months)"
 company = "Mercury, Auckland"
 details = "/content/experiences/mercury.md"
 
