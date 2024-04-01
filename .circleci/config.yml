@@ -27,8 +27,8 @@ workflows:
           html-proofer: false
           version: '0.52'
       - deploy:
-          # filters:
-          #   branches:
-          #     only: master
+          filters:
+            branches:
+              only: master
           requires:
             - hugo/build

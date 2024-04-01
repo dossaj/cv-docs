@@ -105,42 +105,157 @@ position = "Senior Developer (Contract)"
 dates = "2024 - 2024 (3 months)"
 company = "Xero, Auckland"
 details = "/content/experiences/xero-1.md"
+tags = [
+  ".NET Core",
+  ".NET Framework",
+  "ASP.NET",
+  "TeamCity",
+  "Kotlin",
+  "Octopus",
+  "SQL Server",
+  "React",
+  "Redux",  
+  "GraphQL",
+  "AWS",
+  "DynamoDB",
+  "S3",
+  "SQS",
+  "Docker",
+  "Kubernetes",
+  "LocalStack",
+  "EF Core",
+  "LaunchDarkly",
+  "Terraform",
+  "Redis"
+]
 
 [[params.jobs.list]]
 position = "Senior Developer (Contract)"
 dates = "2023 - 2023 (9 months)"
 company = "Mercury, Auckland"
 details = "/content/experiences/mercury.md"
+tags = [
+  ".NET Core",
+  ".NET Framework",
+  "ASP.NET",
+  "B2C",
+  "Azure DevOps",
+  "Oracle",
+  "Angular",
+  "Azure",
+  "App Services",
+  "Functions",
+  "ARM",
+  "Docker",
+  "EF Core"  
+]
 
 [[params.jobs.list]]
 position = "Senior Developer (Contract)"
 dates = "2021 - 2023"
 company = "Xero, Auckland"
 details = "/content/experiences/xero.md"
+tags = [
+  ".NET Core",
+  ".NET Framework",
+  "ASP.NET",
+  "TeamCity",
+  "Kotlin",
+  "Octopus",
+  "SQL Server",
+  "React",
+  "Redux",  
+  "GraphQL",
+  "AWS",
+  "DynamoDB",
+  "S3",
+  "SQS",
+  "Docker",
+  "Kubernetes",
+  "LocalStack",
+  "EF Core",
+  "LaunchDarkly",
+  "Terraform",
+  "Redis"
+]
 
 [[params.jobs.list]]
 position = "Technical Designer (Contract)"
 dates = "2020 - 2021"
 company = "Southern Cross Medical Care Society, Auckland"
 details = "/content/experiences/southern-cross.md"
+tags = [
+  ".NET Core",
+  ".NET Framework",
+  "ASP.NET",
+  "Azure DevOps",
+  "SQL Server",
+  "Angular",
+  "Azure",
+  "App Services",
+  "Docker",
+  "EF Core",
+  ".NET Nuke",
+  "SharePoint",
+  "BizTalk"
+]
 
 [[params.jobs.list]]
 position = "Principal Developer / System Architect"
 dates = "2012 - 2020"
 company = "Fisher & Paykel Healthcare, Auckland"
 details = "/content/experiences/fisher-and-paykel.md"
+tags = [
+  ".NET Core",
+  ".NET Framework",
+  "ASP.NET",
+  "Azure DevOps",
+  "SQL Server",
+  "Angular",
+  "KnockoutJS",
+  "Azure",
+  "App Services",
+  "Docker",
+  "Dapper",
+  "WPF",
+  "WCF",
+  "C++",
+  "RabbitMQ",
+  "Redis",
+  "Kendo UI",
+  "HL7",
+  "Hugo",
+  "NPAPI/ActiveX",
+  "Protocol Buffers"
+]
 
 [[params.jobs.list]]
 position = "Intermediate Software Developer"
 dates = "2010 - 2012"
 company = "Triquestra International, Auckland"
 details = "/content/experiences/triquestra.md"
+tags = [
+  ".NET Framework",
+  "ASP.NET",
+  "Crystal Reports",
+  "SQL Server",
+  "jQuery",
+  "jPlot",
+  "Delphi"
+]
 
 [[params.jobs.list]]
 position = "Software Developer"
 dates = "2008 - 2010"
 company = "Cortell New Zealand, Auckland"
 details = "/content/experiences/cortell.md"
+tags = [
+  ".NET Framework",
+  "ASP.NET",
+  "SQL Server",
+  "jQuery",
+  "CRM"
+]
 
 # Projects section
 [params.projects]

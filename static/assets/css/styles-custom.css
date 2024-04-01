@@ -225,9 +225,13 @@ p {
 }
 
 .main-wrapper .skills-section,
-.main-wrapper .projects-section
-{
+.main-wrapper .projects-section,
+.main-wrapper .experiences-section .item {
   margin-bottom: 30px;
+}
+
+.main-wrapper .skills-section,
+.main-wrapper .projects-section {
   page-break-inside: avoid;
 }
 
@@ -410,4 +414,14 @@ p {
 @page{
   size: A4;
   margin: 5mm 0;  
+}
+
+.badge {
+  border-width: 1px;
+  border-radius: 5px;
+  color: #97AAC3;
+  border-color: #97AAC3;
+  background-color: #fff;
+  border-style: solid;
+  font-weight: 500;
 }
