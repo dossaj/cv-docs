@@ -13,6 +13,11 @@
                     <div class="details">
                         {{ with .details }}{{ readFile . | markdownify }}{{ end }}
                     </div><!--//details-->
+                    <div class="tags">
+                        {{ range .tags }}
+                        <span class="badge">{{.}}</span>
+                        {{ end }}
+                    </div><!--//details-->
                 </div><!--//item-->
 				{{ end }}
             </section><!--//section-->
