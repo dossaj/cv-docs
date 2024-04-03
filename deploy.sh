@@ -4,17 +4,15 @@
 set -e
 
 echo "configure git"
-echo $GITHUB_PERSONAL_TOKEN > ~/.git-credentials && chmod 0600 ~/.git-credentials
-git config --global credential.helper store
+git config --global credential.helper 'cache --timeout=120'
 git config --global user.email "awesome-o-bot@users.noreply.github.com"
 git config --global user.name "awesome-o-bot"
-git config --global push.default simple
 
 echo "remove deployment folder"
 rm -rf deployment
 
 echo "clone publish pages repo into deployment folder"
-git clone -b gh-pages git@github.com:dossaj/cv-site.git deployment
+git clone -b gh-pages https://$GITHUB_PERSONAL_TOKEN@github.com/dossaj/cv-site.git deployment
 
 echo "delete all but git and public folder"
 rsync -av --no-R --delete --exclude ".git" public/ deployment
