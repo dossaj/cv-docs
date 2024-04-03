@@ -27,7 +27,7 @@
                 "command": "open"
             },
             "linux": {
-                "command": "xdg-open"
+                "command": "x-www-browser"
             },
             "args": [
                 "http://localhost:1313/cv-site"
