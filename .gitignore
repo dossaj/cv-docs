@@ -1,5 +1,7 @@
-# Hugo default output directory
+# Hugo Files
+.hugo_build.lock
 /public
+/.cache
 
 ## OS Files
 # Windows
