@@ -41,6 +41,19 @@
                 "browse"
             ],
             "problemMatcher": []
+        },
+        {
+            "label": "docker",
+            "type": "shell",
+            "command": "docker",
+            "args": [
+                "run",
+                "-p", "1313:1313",
+                "-v", "${workspaceFolder}:/src",
+                "-v", "${workspaceFolder}/.cache:/tmp/hugo_cache",
+                "hugomods/hugo:exts",
+                "hugo", "server", "--bind", "0.0.0.0", "--poll", "750ms"
+            ]
         }
     ]
 }
