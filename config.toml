@@ -109,6 +109,7 @@ tags = [
   ".NET Core",
   ".NET Framework",
   "ASP.NET",
+  "IIS",
   "TeamCity",
   "Kotlin",
   "Octopus",
@@ -147,9 +148,12 @@ tags = [
   "Azure",
   "App Services",
   "Functions",
+  "Key Vault",
+  "Blob Storage",
+  "APIM",
   "ARM",
   "Docker",
-  "EF Core"  
+  "EF Core"
 ]
 
 [[params.jobs.list]]
@@ -161,6 +165,7 @@ tags = [
   ".NET Core",
   ".NET Framework",
   "ASP.NET",
+  "IIS",
   "TeamCity",
   "Kotlin",
   "Octopus",
@@ -192,11 +197,13 @@ tags = [
   ".NET Core",
   ".NET Framework",
   "ASP.NET",
+  "IIS",
   "Azure DevOps",
   "SQL Server",
   "Angular",
   "Azure",
   "App Services",
+  "Key Vault",
   "Docker",
   "EF Core",
   ".NET Nuke",
@@ -221,6 +228,8 @@ tags = [
   "App Services",
   "Docker",
   "Dapper",
+  "NHibernate",
+  "Quartz.NET",
   "WPF",
   "WCF",
   "C++",
@@ -241,6 +250,7 @@ details = "/content/experiences/triquestra.md"
 tags = [
   ".NET Framework",
   "ASP.NET",
+  "Quartz.NET",
   "Crystal Reports",
   "SQL Server",
   "jQuery",
