@@ -101,6 +101,26 @@ icon = "fa-briefcase"
 title = "Experiences"
 
 [[params.jobs.list]]
+position = "Principal Developer"
+dates = "2024 - 2024 (5 months)"
+company = "MYOB, Auckland"
+details = "/content/experiences/myob.md"
+tags = [
+  ".NET Framework",
+  "ASP.NET",
+  "IIS",
+  "GoCD",
+  "SQL Server",
+  "AWS",
+  "S3",
+  "EC2",
+  "WCF",
+  "Windows Forms",
+  "DevExpress",
+  "Azure DevOps"
+]
+
+[[params.jobs.list]]
 position = "Senior Developer (Contract)"
 dates = "2024 - 2024 (3 months)"
 company = "Xero, Auckland"
