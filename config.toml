@@ -102,22 +102,24 @@ title = "Experiences"
 
 [[params.jobs.list]]
 position = "Principal Developer"
-dates = "2024 - 2024 (5 months)"
+dates = "2024 - 2025"
 company = "MYOB, Auckland"
 details = "/content/experiences/myob.md"
 tags = [
-  ".NET Framework",
+  ".NET",
   "ASP.NET",
-  "IIS",
   "GoCD",
   "SQL Server",
   "AWS",
-  "S3",
-  "EC2",
+  "CloudFormation",
   "WCF",
   "Windows Forms",
-  "DevExpress",
-  "Azure DevOps"
+  "Azure DevOps",
+  "NodeJS",
+  "React",
+  "CloudFlare",
+  "Kubernetes",
+  "BuildKite"
 ]
 
 [[params.jobs.list]]
