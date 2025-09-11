@@ -14,5 +14,6 @@ Guide, lead and plan with multiple teams, the creation and changes to applicatio
 - Implement and upgrade feature flag framework
 - Investigating and identifying areas for improvement in team workflows and efficiencies
 - Investigating and identifying areas of technical liability and risk within current products
+- Conduct and asses candidate suitability for open roles
 
 <!-- markdownlint-enable MD041 -->
