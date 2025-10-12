@@ -175,7 +175,10 @@ tags = [
   "APIM",
   "ARM",
   "Docker",
-  "EF Core"
+  "EF Core",
+  "OIDC",
+  "Identity",
+  "OAuth"
 ]
 
 [[params.jobs.list]]
