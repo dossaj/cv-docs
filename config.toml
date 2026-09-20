@@ -101,8 +101,29 @@ icon = "fa-briefcase"
 title = "Experiences"
 
 [[params.jobs.list]]
+position = "Lead Developer (Contract)"
+dates = "Nov 2025 - Current"
+company = "TMNZ, Auckland"
+details = "/content/experiences/tmnz.md"
+tags = [
+  ".NET",
+  "Claude",
+  "ASP.NET Core",
+  "Azure DevOps",
+  "Postgres",
+  "Azure",
+  "Aspire",
+  "Container Apps",
+  "Azure DevOps",
+  "Durable Task Framework",
+  "Docker",
+  "OpenIddict",
+  "Azure Service Bus"
+]
+
+[[params.jobs.list]]
 position = "Principal Developer"
-dates = "May 2024 - Current"
+dates = "May 2024 - Nov 2025"
 company = "MYOB, Auckland"
 details = "/content/experiences/myob.md"
 tags = [
